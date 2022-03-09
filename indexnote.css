@@ -1,0 +1,23 @@
+.test {
+    text-align: center;
+}
+
+
+a {
+    border-style: solid;
+    background-color: #EFEFEF;
+    border-width: 0.5px;
+    border-color: #000000;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+.inlineblock2{
+    list-style-type: none;
+    display: inline-block;
+}

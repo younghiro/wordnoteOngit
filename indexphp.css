@@ -1,0 +1,164 @@
+/* cssのコメント　*/
+body{
+    width:100vh;
+    height:100vh;
+}
+
+header{
+    background-color:white ;
+    height: 20vh;
+    width:100%;
+    position: relative;
+}
+
+header .text{
+    height:100%;
+    width:100%;
+     
+}
+
+h1 {
+    width:100%;
+    text-align: center;
+    letter-spacing: 10px;
+    color:#29B6F6;
+    font-size: 50px;
+    position: absolute;
+    top:25%;
+    transform:translateY(-50%);
+    font-family: 'Bangers', cursive;
+    /*font-family: ;*/
+    /* フォント名にスペースがある場合はダブルクォーテーションを使う
+    セレクタ:hoverでカーソルが乗った時CSSを指定できる
+
+    時間があればレスポンレスポンシブデザイン
+
+    cssが読み込まない時、キャッシュで読み込まれてたのでcommand+shift+Rでスーパーリロードする
+    
+    */
+}
+
+.explaination {
+    width:100%;
+    text-align: center; 
+    position: absolute;
+    top: 70%;
+    transform:translateY(-50%);
+}
+
+
+
+.selectsubject {
+    text-align: center;
+    height: 25%;
+    display:flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    
+}
+
+.selectsubject label{
+    display: inline-block;
+    flex:auto;
+    width:50%;
+}
+
+
+
+.selectsituation{
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.selectsituation label{
+    display: inline-block;
+    margin: 0 auto;
+    width:20%;
+}
+
+.radio1{
+    margin-left:50px;
+}
+
+.radio2{
+     padding-left:50px;
+}
+
+
+.main{
+    width:100%;
+    position: relative;
+    background-color:white ;
+    height: 55vh;
+    
+}
+
+.form{
+    height:100%;
+  
+}
+
+/*line-heightプロパティは本来行間を調整するためのプロパティですが、要素の縦方向の中央に文字を配置するのにも使えます。
+line-heightプロパティの「高さの中心」に文字が配置されるため、要素の高さとline-heightプロパティを同じ値にすると、文字がちょうど中央に配置されるようになります*/
+
+
+.word{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width:70%;
+    text-align: center;
+    height:30%;
+}
+
+.wordinput{
+    height:100%;
+    width:100%;
+
+}
+
+.wordinput input{
+    display: block;
+    height:70%;
+    width:70%;
+    margin: 0 auto;
+    font-size: 200%;
+
+}
+
+
+.errormessage {
+    color:red;
+    font-size: 25px;
+    text-align: center
+}  
+
+
+footer{
+    background-color:white ;
+    height:30vh;
+
+}
+
+.selectsubjectnote{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selectsubjectnote p{
+    flex:auto;
+    width:50%;
+    text-align: center;
+}
+
+
+
+/* 別タブで単語帳を開きたい時　target="_blank" を<a>の中に入れる　*/
